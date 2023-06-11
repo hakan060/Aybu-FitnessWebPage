@@ -1,0 +1,17 @@
+{
+    "mealSections": [
+      {
+        
+        "title": "Morning",
+        "image": "images/morning.jpg",
+        "meals": [
+          "Şekersiz fıstık, fıstık ezmesi",
+          "Kavrulmamış çiğ kuruyemişler (Badem, ceviz, fındık)",
+          "Taze meyveler",
+          "Peynir, süt, yoğurt"
+        ]
+      }
+  
+    ]
+  }
+  

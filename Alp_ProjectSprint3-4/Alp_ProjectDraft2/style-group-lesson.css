@@ -1,0 +1,159 @@
+
+.box-container
+  {
+    width: 100%;
+    max-width: 1910px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    /*lex-wrap: wrap; değeri ile esnek kutu içerisindeki öğelerin boyutlarını küçültmeden
+    sabit tutabilmek için öğeleri bir alt satıra ya da yan satıra geçirecektir. 
+    Yukarıdaki resimde öğeler flex-wrap: wrap özelliği olan bir kap 
+    içerisinde öğeler tek bir satıra sığdırılmaya çalışmadan alt satıra kaydırılır.  */
+  }
+
+  .box{
+    width: 300px;
+    padding: 15px;
+    min-height: 450px;
+  }
+  .box1{
+    color: #f1f1f1;
+    background-color: #061529;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .box2{
+    color: #f1f1f1;
+    background-color: #576c88;
+  }
+  .box3{
+    color: #f1f1f1;
+    background-color:  #061529;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .content{
+    padding: 10px;
+  }
+  h3{
+    color: #a3bbda;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+p{
+  color: #f1f1f1;
+}
+.btn{
+  margin: 40px  0;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  background-color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+
+}
+.btn1{
+  color: #576c88;
+}
+.btn2{
+  color: #a3bbda;
+}
+.btn3{
+  color: #576c88;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid #FFF;
+  color: #FFF;
+  transition: 0.4s;
+}
+
+.box4 {
+  color: #f1f1f1;
+  background-color: #a3bbda;
+  text-align: left;
+  margin-left: 0px;
+  
+  justify-content: flex-end;
+}
+h4{
+  color: #01060c;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.meal-section {
+  display: none;
+  margin-top: 20px;
+}
+
+.meal-section.show {
+  display: block;
+}
+.meal-buttons {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #fff; /* Çerçeve ekledik */
+  border-radius: 30px; /* Köşeleri yuvarlattık */
+  padding: 10px; /* İçeriğin etrafına boşluk ekledik */
+  margin-top: 20px;
+}
+
+.meal-button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.meal-photo {
+  display: block;
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#nav_list {
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#nav_list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav_list li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#nav_list a {
+  display: block;
+  padding: 5px 2px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+#nav_list a:hover {
+  background-color: #130535;
+  color: #fff;
+}
+
+.custom-box {
+  color: #f1f1f1;
+    background-color: #576c88;
+    margin-left: 100px;
+}

@@ -1,0 +1,15 @@
+{
+    "mealSections": [       
+  {
+    
+    "title": "Afternoon",
+    "image": "images/afternoon.jpg",
+    "meals": [
+      "Bol salata (1 tatlı kaşığı zeytinyağı)" ,
+      "8-9 çorba kaşığı yağsız makarna veya pirinç lapası",
+      "1 kase yağsız yoğurt veya 2 bardak light ayran.",
+      "3 dilim tam buğday ekmeği (75 gr)"
+    ]
+  }
+    ]
+}

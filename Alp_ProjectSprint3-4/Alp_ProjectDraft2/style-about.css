@@ -1,0 +1,80 @@
+
+/*I edited the titles*/
+.main-about{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.main-about h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.main-about h5{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+/*I changed the settings of the buttons and photos*/
+.about-us img {
+    
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.content{
+    padding: 10px;
+}
+.content h2{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.content p{
+    
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.5;
+    margin:15px 0px ;
+}
+.button-about{
+    display: inline-block;
+    color: #fff;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button-about:hover {
+    background-color: #006dd6;
+}
+/*I tried to make it more regular 
+by finding the appropriate pixels for my screen.*/
+
+@media(max-width:768px) {
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us img{
+        flex:0 100%;
+        max-width: 100%;
+    }
+    .content{
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+}

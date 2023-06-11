@@ -1,0 +1,49 @@
+
+.containerr {
+    background-color: rgba(240, 227, 227, 0.8);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+  .containerr h1 {
+    text-align: center;
+  }
+  .containerr form {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerr form label {
+    margin-bottom: 5px;
+  }
+  .containerr form input,
+  .containerr form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .containerr form input[type="submit"] {
+    background-color: #0881f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .containerr form input[type="submit"]:hover {
+    background-color: #1b0575;
+  }
+  .containerr form input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .containerr label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }

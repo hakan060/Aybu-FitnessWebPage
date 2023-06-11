@@ -1,0 +1,15 @@
+{
+    "mealSections":[
+        {
+            
+            "title": "Evening",
+            "image": "images/night.jpg",
+            "meals": [
+              "Bol salata.",
+              "Pirinç veya şehriye çorba.",
+              "Fırında haşlama, buğulama veya ızgara olarak hazırlanmış tavuk, kırmızı et, balık ya da hindi.",
+              "Pirinç lapası ya da yağsız makarna."
+            ]
+          }
+    ]
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Lessons</title>
+    <script src="jquery-ui-1.13.2/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style-group-lesson.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container row">
+          <a href="#" class="logo"><img src="aslan.jpg">
+            <h1 class="aybu-fitness">AYBU FITNESS</h1></a>
+          
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="index.html" class="nav__link">Home Page</a></li>
+              <li class="nav__item"><a href="testimontals.html" class="nav__link" >Testimontals</a></li>
+              <li class="nav__item"><a href="group-lesson.html" class="nav__link">Group Lessons</a></li>
+              <li class="nav__item"><a href="about-us.html"class="nav__link" >About Us</a></li>
+              <li class="nav__item"><a href="contact-us.html"class="nav__link" >Contact Us</a></li>
+            </ul>
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">Sign in</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link--button">Sign up</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <div class="box-container">
+        <div class="box box1">
+          <div class="content">
+            <img src="cardio.jpg" width="250px">
+            <p>
+              <h3><span> Cardio </span></h3>
+              Kilo vermek isteyen ya da vücudundaki yağlardan 
+              kurtulmak isteyen insanların vazgeçilmez antrenmanlarından biri de hiç şüphesiz 
+              cardio antrenmanlarıdır. Kardiyo antrenmanı yapmak be kadar önemliyse, 
+              bu antrenmanları zamanında yapmak da o kadar önemlidir.</p>
+              <button class="btn btn1">Learn More</button> 
+            
+          </div>
+        </div>
+
+        <div class="box box2">
+          <div class="content">
+            <img src="muscle.jpg" width="250px">
+            <p>
+              <h3><span> Muscle </span></h3>
+              Kas kütlenizi arttırmak istiyorsanız, kaldırdığınız ağırlığı arttırarak vücudunuzu kas 
+              geliştirmeye zorlamalısınız. Aksi takdirde vücut gelişmek istemeyecektir. Çünkü kas, 
+              daima çok fazla enerji tüketen ve vücudun yakma eğiliminde olduğu bir kütledir. 
+              Yüksek tekrarlarda da düşük tekrarlarda da antrenmanda kaldırdığınız ağırlığı arttırmaya 
+              gayret göstermelisiniz. Ağırlık antrenmanlarının temel amacı, zamanla toplam yükü 
+              arttırmayı hedeflediğimiz ''progressive overload'' stratejisidir. Kısaca progressive 
+              overload aşamalı yük, egzersiz eğitimi sırasında vücuda uygulanan stresin kademeli 
+              olarak artması demektir. Bu strateji olmadan gelişmek zordur.
+            </p>
+              <button class="btn btn2">Learn More</button> 
+            
+          </div>
+        </div>
+
+        <div class="box box3">
+          <div class="content">
+            <img src="cycling.jpg" width="250px">
+            <p>
+              <h3><span> Cycling </span></h3>
+              Bisiklet üzerinde Müzik ve ritim eşliğinde yapılan,  rpm ve level ayarları kullanılarak 
+              zorluk derecesi belirlenen eğlenceli ve dinamik bir kardiyo antrenmanıdır. 
+              Yağ yakımı temposunda yapılan bisiklet antrenmanı üzerine karın kaslarının çalıştırıldığı, 
+              kendi antrenman programınızın üzerine ekleyebileceğiniz etkili bir çalışmadır.
+            </p>
+              <button class="btn btn3">Learn More</button> 
+            
+          </div>
+        </div>
+
+        <div class="box box4">
+          <div class="content">
+            <aside>
+              <h1 id="mealSections">Nutrition Timetable</h1>
+              <nav id="nav_list">
+                <ul>
+                  <li><a href="#" title="morning">Morning<br></a></li>
+                  <li><a href="#" title="noon">Afternoon<br></a></li>
+                  <li><a href="#" title="evening">Evening<br></a></li>              
+                </ul>
+              </nav>
+            </aside>
+
+          </div>
+
+          <main>
+            <h1>Our Diet Program</h1>
+            <img src="images/diet-program.jpg" width="200px">
+            <h2>Time Day<br></h2>
+            <p>Neden kilo vermek istiyorsunuz?
+              Neden kilo vermek istediğinizi kendinize hatırlatın. Hatta hep gözünüzün önünde olsun diye bir kağıda yazıp asın. 
+              
+              Hedefinizi sürekli gördüğünüzde motive olacak ve belki de kaçamak yapmak üzere olduğunuzda bu, sizi durduracaktır.
+              
+              Beklentileriniz gerçekçi olsun
+              
+              Pek çok diyet programı hızlı ve kolay zayıflattığını iddia eder. Kilo vermede doğru ve sağlıklı olan haftalık yarım ila 1 kg verilmesidir. 
+              Ulaşılamaz hedefler koyarsanız hayal kırıklığına uğrar ve vazgeçersiniz.</p>	
+          </main>
+        </div>
+        <div id="mealSection">
+          <h3 id="categoryName"></h3>
+          <img id="categoryImage" alt="" width="200px">
+          <p id="categoryDescription"></p>
+        </div>
+       
+           <script>
+            $(document).ready(function() {
+            $.ajax({
+              url: 'https://www.themealdb.com/api/json/v1/1/categories.php',
+              type: 'GET',
+              dataType: 'json',
+              success: function(data) {
+                // AJAX isteği başarılı oldu
+                console.log(data); // Gelen verileri konsola yazdırma
+
+                // Verileri web sitenizde kullanabilirsiniz ve sayfayı güncelleyebilirsiniz
+                // Örneğin, kullanıcıları listeleyebilir veya belirli bir alanı gösterebilirsiniz
+              },
+              error: function(xhr, status, error) {
+                // AJAX isteği başarısız oldu
+                console.error(error); // Hata mesajını konsola yazdırma
+              }
+            });
+          });
+           </script>
+           
+           <script>
+                  $(document).ready(function() {
+           
+            $.getJSON("https://www.themealdb.com/api/json/v1/1/categories.php", function(data) {
+              var categories = data.categories;
+              var categoryIndex = 0; 
+              var category = categories[categoryIndex];
+          
+              var categoryName = category.strCategory;
+              var categoryImage = category.strCategoryThumb;
+              var categoryDescription = category.strCategoryDescription;
+          
+              
+              var categoryHTML = `
+                <div class="box box3 custom-box"> <!-- box3 sınıfına ek olarak yeni sınıfı da kullanın -->
+                  <div class="content">
+                    <h3>${categoryName}</h3>
+                    <img src="${categoryImage}" alt="Category Image" class="meal-photo">
+                    <p>${categoryDescription}</p>
+                  </div>
+                </div>
+              `;
+              $(".box4").before(categoryHTML);
+            });
+          });
+           </script>
+
+    </div>
+
+    
+    
+
+    <footer>
+      <div class="footer-content">
+        <h3>Aybu Fitness Club</h3>
+        <p>Ayvalı Mah. 150 Sk. Etlik-Keçiören / Ankara
+        </p>
+        <ul class="socials">
+          
+          <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-square-instagram"></i></a></li>
+          <li><a href="https://accounts.google.com/InteractiveLogin/signinchooser?elo=1&ifkv=AQMjQ7Qd_SXheNo365VDVD_mH7Bw42z6fIi9__PEFIAzMFTwE6klG_wHzv5zP7f2NQFFbJpWAuRnpg&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fa-brands fa-google-plus"></i></a></li>
+          <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>Designed by Mehmet Hakan Alp - 19050111070</p>
+      </div>
+    </footer>
+
+      
+</body>
+</html> 
